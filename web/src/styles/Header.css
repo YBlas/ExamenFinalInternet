@@ -1,0 +1,33 @@
+.Header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.title {
+    font-size: 7rem;
+    padding: 2rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.Foreground,
+.Background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Background {
+    transform: translateZ(-10px) scale(2);
+}
+
+.Foreground {
+    transform: translateZ(-5px) scale(1.5);
+}
