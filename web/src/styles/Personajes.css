@@ -1,0 +1,11 @@
+.Personajes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenP {
+    border-radius: 50%;
+}
